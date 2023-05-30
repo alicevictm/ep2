@@ -156,3 +156,9 @@ h1 {
   color: rgb(33, 32, 32); 
   line-height: 0.5
 }
+
+.platao-karol{
+  width: 90%;
+  float: center;
+  margin: 3rem;
+}
