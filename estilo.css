@@ -4,15 +4,15 @@
   border-radius: 100%;
 }
 
-nav{
-  margin-top: 2.5rem;
-}
-
 header{
   background-image: linear-gradient(to right, rgb(86, 86, 86) , rgb(68, 68, 68));
   display: flex;
   padding: 0,5rem;
-  border: solid rgba(255, 255, 255, 10);
+  border: solid rgb(255, 255, 255, 10);
+}
+
+nav{
+  margin-top: 2.5rem;
 }
 
 nav li{
@@ -37,7 +37,7 @@ nav a:hover{
 }
 
 footer{
-  text-align:left;
+  text-align:center;
   background-image: linear-gradient(to right, rgb(86, 86, 86) , rgb(68, 68, 68));
   font-size: 1rem;
   color: rgb(255, 255, 255);
@@ -71,8 +71,8 @@ body {
 }
 
 h1 {
-  margin: 0;
-  padding: 20px 20px;
+  margin: 0px;
+  padding: 20px;
   color: rgb(0, 4, 85);
   text-shadow: 2px 2px 2px rgb(73, 73, 73);
   font-size: 60px;
@@ -86,10 +86,12 @@ img{
   border-radius: 10px;
 }
 
-.cor{
-  font-size: 70px;
-  color: rgb(33, 32, 32); 
-  line-height: 0.5px;
+.início{
+  font-size: 0.1rem;
+  margin: 2rem;
+  text-align: center;
+  letter-spacing: 0.1px;
+  border: solid rgba(94, 94, 94, 0.43);
 }
 
 .texto{
@@ -130,11 +132,5 @@ img{
   margin: 1rem;
 }
 
-.início{
-  font-size: 0.1rem;
-  margin: 2rem;
-  text-align: center;
-  letter-spacing: 0.1px;
-  border: solid rgba(94, 94, 94, 0.43);
-}
+
 
